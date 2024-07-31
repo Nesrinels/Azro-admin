@@ -1,0 +1,157 @@
+body {    
+    font-family: sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #201F40;
+    
+  }
+  
+  .box {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    background: #ff6b8a;
+    border: 2px solid #ff6b8a;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #ff6b8a;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    backdrop-filter: blur(5px);
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: 60% ;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #201F40;
+  }
+  .popup .close:hover {
+    color: #ff6b8a;
+  }
+  .popup .form {
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  input{
+    height: 50px;
+    background: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+  }
+  select{
+    height: 50px;
+    background: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+  }
+  label{
+    color: #201F40;
+  }
+  .line1{
+    display: flex;
+    justify-content: space-between;
+  }
+ .line1 input{
+    width: 350px;
+ }
+.line1 select{
+    width: 350px;
+}
+  .line2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .line2 input{
+    width: 350px;
+  }
+  .line3{
+    display: flex;
+    justify-content: space-between;
+  }
+  .line3 input{
+    width: 230px;
+  }
+  .line3 select{
+    width: 230px;
+  }
+  .line4 input{
+    width: 740px;
+  }
+  .ck{
+    display: flex;
+  }
+  .ck label{
+    margin-top: 20px;
+  }
+.btns{
+   display: flex; 
+   justify-content: space-between;
+}
+  .btn1{
+    height: 50px;
+    width: 350px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #ccc;
+
+  }
+  .btn2{
+    height: 50px;
+    width: 350px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #ff6b8a;
+  }
