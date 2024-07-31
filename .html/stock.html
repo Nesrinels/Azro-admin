@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css/stock.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    
+    <div class="stock">
+        <div class="title">
+            <a href="#">
+                <h1><i class='bx bx-left-arrow-alt'></i> Detail Stock Entries</h1>
+            </a>
+            <div class="btns">
+                <button><i class='bx bxs-truck'></i></button>
+                <button><i class='bx bx-refresh'></i></button>
+                <button><i class='bx bx-reply bx-flip-horizontal'></i></button>
+            </div>
+        </div>
+        <div class="tabs">
+            <div class="tab1">
+                <h3>Entry Stock Details</h3>
+                <table>
+                    <tr>
+                        <th>Client</th>
+                        <th>Phone number</th>
+                        <th>E-mail</th>
+                        <th>Reference number</th>
+                        <th>Warehouse</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>TEST</td>
+                        <td>TEST</td>
+                        <td>XXXXXXXXXXXXXXX</td>
+                        <td>SE24-00000000037</td>
+                        <td>XXXXXXXXXXXXXXX</td>
+                        <td>31/07/2024</td>
+                        <td>
+                            <p class="status status-pending">PENDING</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab2">
+                <div class="items">
+                    <h3>Entry Stock Items</h3>
+                    <table>
+                        <tr>
+                            <th>Client</th>
+                            <th>Phone number</th>
+                            <th>E-mail</th>
+                            <th>Reference number</th>
+                            <th>Warehouse</th>
+
+                        </tr>
+                        <tr>
+                            <td>TEST</td>
+                            <td>TEST</td>
+                            <td>XXXXXXXXXXXXXXX</td>
+                            <td>SE24-00000000037</td>
+                            <td>XXXXXXXXXXXXXXX</td>
+
+                        </tr>
+                    </table>
+                </div>
+                <div class="progress">
+                    <div class="ttl">
+                        <h4>On The Road </h4>
+                        <p>31/07/2024 3:00 PM</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="https://img.icons8.com/?size=100&id=99984&format=png&color=40C057" alt="">
+                            <i class='bx bx-check icon-green'></i>
+                            <p>Delivered</p>
+                            <p>31/07/2024 3:00 PM</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://img.icons8.com/?size=100&id=RUrXKhEisAEd&format=png&color=40C057" alt="">
+                            <i class='bx bx-loader'></i>
+                            <p>Delivered</p>
+                            <p>31/07/2024 3:00 PM</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://img.icons8.com/?size=100&id=5r5Up7iRnrkT&format=png&color=40C057" alt="">
+                            <i class='bx bx-package'></i>
+                            <p>Delivered</p>
+                            <p>31/07/2024 3:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="save-btn">
+    <button class="save">Save</button>
+</div>
 </body>
+
 </html>
