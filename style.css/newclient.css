@@ -145,3 +145,51 @@ body {
     color: white;
     background: #ff6b8a;
   }
+
+  /* Responsive  */  
+   
+ @media (min-width: 768px) and (max-width: 1199px) {  
+ 
+  .popup {  
+    width: 60%; 
+    height: 70%; 
+   }  
+  .line1 input,.line1 select {  
+    width: 250px;  
+   }  
+  .line2 input {  
+    width: 250px;  
+   }  
+  .line3 input,.line3 select {  
+    width: 180px;  
+   }  
+  .line4 input {  
+    width: 500px;  
+   }  
+  .btn1,.btn2 {  
+    width: 250px;  
+   }  
+ }  
+   
+  
+ @media  (max-width: 767px) {  
+  .popup {  
+    width: 80%; 
+    height: 70%; 
+   }  
+  .line1 input,.line1 select {  
+    width: 200px;  
+   }  
+  .line2 input {  
+    width: 200px;  
+   }  
+  .line3 input,.line3 select {  
+    width: 150px;  
+   }  
+  .line4 input {  
+    width: 400px;  
+   }  
+  .btn1,.btn2 {  
+    width: 200px;  
+   }  
+ }

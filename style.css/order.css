@@ -129,3 +129,81 @@ td{
     font-weight: bold;
     font-size: 16px;
 }
+
+/* Responsive styles */
+ 
+   @media (min-width: 768px) and (max-width: 1199px) {  
+    .stock {  
+      width: 90%;  
+      margin: 30px auto;  
+     }  
+    .title {  
+      padding: 15px;  
+     }  
+    .btns {  
+      width: 200px;  
+      margin-top: 20px;  
+     }  
+    .tab1 {  
+      width: 100%;  
+     }  
+     .tabs{
+        flex-direction: column;
+     }
+    .tab2 {  
+      width: 100%;  
+      
+     }  
+    .items {  
+      width: 100%;  
+      
+     }  
+    .item {  
+      width: 145%;  
+     }  
+    .progress {  
+      width: 100%; 
+      margin-left: 50%;
+     }  
+    .card {  
+      width: 90%;  
+     }  
+    .save-btn {  
+      width: 100%;  
+     }  
+   }  
+      
+   @media  (max-width: 767px) {  
+    .stock {  
+      width: 100%;  
+      margin: 20px auto;  
+     }  
+    .title {  
+      padding: 10px;  
+     }  
+    .btns {  
+      width: 150px;  
+      margin-top: 15px;  
+     }  
+    .tab1 {  
+      width: 100%;  
+     }  
+    .tab2 {  
+      width: 100%;  
+     }  
+    .items {  
+      width: 100%;  
+     }  
+    .item {  
+      width: 100%;  
+     }  
+    .progress {  
+      width: 100%;
+     }  
+    .card {  
+      width: 50%;  
+     }  
+    .save-btn {  
+      width: 50%;  
+     }  
+   }  
